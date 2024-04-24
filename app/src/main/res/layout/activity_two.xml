@@ -23,6 +23,21 @@
             android:text="返回"
             android:onClick="back"
             />
+
+
+        <ListView
+            android:id="@+id/my_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
     </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
